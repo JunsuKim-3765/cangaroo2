@@ -178,7 +178,7 @@ function spawnShrubs() {
 }
 
 function spawnObstacles() {
-  if(frameCount % 0 === 0) {
+  if(frameCount % 120 === 0) {
 
     var obstacle = createSprite(camera.position.x+400,330,40,40);
     obstacle.setCollider("rectangle",0,0,200,200)
